@@ -295,6 +295,71 @@ span {
   margin-top: 2rem;
   text-align: center;
 }
+
+:root{
+  --text-light: rgba(255,255,255,0.6);
+  --text-lighter: rgba(255,255,255,0.9);
+  --spacing-s: 8px;
+  --spacing-m: 16px;
+  --spacing-l: 24px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 64px;
+  --width-container: 1200px;
+}
+
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+body{
+  height: 100%;
+}
+
+:root{
+  --background-dark: #2d3548;
+  --text-light: rgba(255,255,255,0.6);
+  --text-lighter: rgba(255,255,255,0.9);
+  --spacing-s: 8px;
+  --spacing-m: 16px;
+  --spacing-l: 24px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 64px;
+  --width-container: 1200px;
+}
+
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+body{
+  height: 100%;
+}
+
+.portfolio-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+  gap: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+}
 .portfolio-img {
   overflow: hidden;
   border-radius: 0.5rem;
@@ -307,6 +372,10 @@ span {
 .portfolio-img img:hover {
   transform: scale(1.1);
   transition: 1s;
+}
+.deskripsi{
+  text-align: center;
+  margin-top: 1rem;
 }
 
 .info-contact{
@@ -323,6 +392,7 @@ span {
 .footer h2 {
   font-size: var(--medium-font);
   margin-bottom: 1.4rem;
+  color: #fff;
 }
 .footer-social a {
   color: #fff;
