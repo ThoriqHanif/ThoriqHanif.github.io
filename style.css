@@ -246,6 +246,15 @@ span {
 .bootstrap-bar {
   width: 80%;
 }
+.php-bar{
+  width: 75;
+}
+.codeigniter-bar{
+  width: 70;
+}
+.mysql-bar{
+  width: 60;
+}
 .services-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
